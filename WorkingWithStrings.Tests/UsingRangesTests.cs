@@ -73,10 +73,10 @@ namespace WorkingWithStrings.Tests
         }
 
         [TestCase("abcdefghijk", ExpectedResult = "defgh")]
-        public string GetStringWithoutThreeFirstAndTwoLastChars_StrIsValid_ReturnsResult(string str)
+        public string GetStringWithoutThreeFirstAndThreeLastChars_StrIsValid_ReturnsResult(string str)
         {
             // Act
-            return UsingRanges.GetStringWithoutThreeFirstAndTwoLastChars(str);
+            return UsingRanges.GetStringWithoutThreeFirstAndThreeLastChars(str);
         }
 
         [TestCase("9M431Z0DDQLL75Q2", "9", "31", "DDQ", "75Q2")]

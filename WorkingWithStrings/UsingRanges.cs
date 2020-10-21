@@ -99,7 +99,7 @@ namespace WorkingWithStrings
         /// <summary>
         /// Gets a string without the first three and the last three characters of the <paramref name="str"/> string.
         /// </summary>
-        public static string GetStringWithoutThreeFirstAndTwoLastChars(string str)
+        public static string GetStringWithoutThreeFirstAndThreeLastChars(string str)
         {
             // TODO #4-9. Analyze unit tests for the method, and add the method implementation.
             // Use range to get a substring: https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/ranges-indexes
