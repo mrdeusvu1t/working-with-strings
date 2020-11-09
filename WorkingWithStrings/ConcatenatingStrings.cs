@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 #pragma warning disable SA1615
 #pragma warning disable SA1611
+#pragma warning disable S2234
 
 namespace WorkingWithStrings
 {
